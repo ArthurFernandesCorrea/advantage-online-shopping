@@ -5,7 +5,9 @@ Esse projeto é uma demosntração de como utilizar as ferramentas cypress e cuc
 # Configurando o Ambiente
 
 Instalar o Node.js
+
 Instalar o VS Code
+
 Instalar o Cypress
 
 # Configurando o Cypress
@@ -16,7 +18,7 @@ npm init -y
 
 npm install cypress --save-dev
 
-Após a instalação, digitar o seguinte comando para abrir o cypress para verificar se a instação ocorreu corretamente
+Após a instalação, digitar o seguinte comando para abrir o cypress para verificar se a instalação ocorreu corretamente
 
 npx cypress open
 
@@ -30,5 +32,7 @@ npm install --save-dev cypress-cucumber-preprocessor
 # Executando os testes
 
 Clone este repositório e execute as specs
+
 Digite o comando npx cypress open
+
 Escolha a spec que deseja executar
