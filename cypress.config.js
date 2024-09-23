@@ -6,6 +6,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber())
     },
+    baseUrl: 'https://advantageonlineshopping.com/#/',
     specPattern: ["cypress/e2e/step_definitions/*.feature",
                  "cypress/e2e/step_definitions/API/*.js"]
      },
